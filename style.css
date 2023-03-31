@@ -1,0 +1,74 @@
+.navbar-brand img {
+    width: 150px;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.carousel-indicators [data-bs-target] {
+
+    width: 30px;
+    height: 6px;
+    padding: 0;
+    background: rgb(151, 195, 34);
+    background: linear-gradient(0deg, rgba(151, 195, 34, 0.8939950980392157) 0%, rgba(228, 241, 10, 1) 100%);
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 5px;
+    color: ;
+}
+
+.carousel-indicators .active {
+    width: 50px;
+}
+
+.card {
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    ;
+}
+
+span {
+    display: block;
+    height: 4px;
+    width: 150px;
+    margin: auto;
+    background-color: orange;
+    border-radius: 2px;
+
+}
+
+.categories {
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    ;
+}
+
+carousel-inner {}
+
+.align-items-center {
+    align-items: center !important;
+    margin-top: 125px;
+}
+
+.navbar {
+    background: rgb(183, 195, 34);
+    background: linear-gradient(0deg, rgba(183, 195, 34, 0.20211834733893552) 0%, rgba(10, 241, 68, 0.10407913165266103) 100%);
+}
+
+.bg {
+    background: rgb(183, 195, 34);
+    background: linear-gradient(0deg, rgba(183, 195, 34, 0.47102591036414565) 0%, rgba(10, 241, 68, 0.21052170868347342) 100%);
+}
+
+@media only screen and (max-width: 600px) {
+    .align-items-center {
+        align-items: center !important;
+        margin-top: 80px;
+    }
+}
